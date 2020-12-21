@@ -22,7 +22,7 @@ internal void
 update_window(HDC device_context,
 	      RECT *window_rect);
 
-int WINAPI
+int CALLBACK
 WinMain(HINSTANCE hInstance,
 	HINSTANCE hPrevInstance,
 	LPSTR     lpCmdLine,
